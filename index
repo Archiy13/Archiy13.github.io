@@ -8,19 +8,16 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #003366; /* สีพื้นหลังน้ำเงิน */
+            background-color: #003366;
             margin: 0;
             padding: 0;
+            color: white;
         }
         header {
-            background-color: #FFA500; /* สีแทบข้างบนเป็นสีส้ม */
+            background-color: #FFA500;
             color: white;
             padding: 10px 0;
             text-align: center;
-        }
-        header img {
-            max-width: 150px; /* กำหนดขนาดโลโก้ */
-            height: auto;
         }
         main {
             padding: 20px;
@@ -32,6 +29,7 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            color: black;
         }
         .form-container h2 {
             text-align: center;
@@ -85,7 +83,7 @@
                 <input type="text" id="student_id" name="student_id" required>
 
                 <label for="device">อุปกรณ์ที่ชำรุด:</label>
-                    <textarea id="description" name="description" required></textarea>
+                <input type="text" id="device" name="device" required>
 
                 <label for="description">รายละเอียดของชำรุด:</label>
                 <textarea id="description" name="description" rows="5" required></textarea>
